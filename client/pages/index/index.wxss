@@ -1,0 +1,51 @@
+/**index.wxss**/
+page {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#icon{
+  margin:150rpx 230rpx 40rpx;
+  width: 300rpx;
+  height:300rpx;
+}
+.tip_Text{
+  display: flex;
+  justify-content:center;
+  margin: 30rpx;
+  color: #888888;
+  font-size: 17pt;
+}
+.A{
+  width:600rpx;
+  color:white;
+  background-color: rgb(91, 187, 7);
+  margin-bottom: 30rpx;
+}
+.B{
+  color:white;
+  width:600rpx;
+   background-color: #1874CD; 
+}
+.mini-btn{
+    margin-right: 5px;
+}
+#minibtn-area{
+   width: 100%; 
+}
+.C{
+     color:#1874CD; 
+    margin-left: 120rpx;
+}
+.C::after{
+    border:5rpx solid #1874CD;  
+
+}
+.D{
+    color:rgb(91, 187, 7);
+    margin-left: 150rpx;
+}
+.D::after{
+   border:5rpx solid rgb(91, 187, 7); 
+}

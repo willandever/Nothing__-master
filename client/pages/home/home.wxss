@@ -1,0 +1,35 @@
+/* pages/home/home.wxss */
+/**index.wxss**/
+page {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#icon{
+ width: 500rpx;
+ height: 200rpx;
+}
+#shang{
+  margin: 100rpx;
+}
+text{
+  margin: 10rpx;
+    display: flex;
+  justify-content:center;
+   /* margin: 30rpx; */
+   color: #888888; 
+   font-size: 17pt;  
+}
+#a{
+   color:#1874CD; 
+    margin: 10rpx;
+     display: flex; 
+    justify-content: center;
+}
+#a::after{
+    border:5rpx solid #1874CD;  
+
+}
+
+

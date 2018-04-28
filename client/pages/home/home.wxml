@@ -1,0 +1,12 @@
+<!--pages/home/home.wxml-->
+<view id='header'>
+
+<view id='shang'>
+
+<image id='icon' src='./tu.png'></image>
+<text>hello world</text>
+<button id='a' size='mini'>anniu</button>
+</view>
+
+</view>
+<!-- <text>pages/home/home.wxml</text> -->

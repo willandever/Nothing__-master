@@ -1,0 +1,24 @@
+<!--index.wxml-->
+
+
+<view id='container'>
+
+<image id='icon' src='./img.png'></image>
+
+<view id='btn-area'> 
+<text class='tip_Text' style='font-size:11pt'> 按钮区域</text>
+<button class='weui-btn A' >页面主操作 Normal1</button>
+<button class='weui-btn B' >页面主操作 Normal</button>
+</view>
+
+<view id='minibtn-area'> 
+<text class='tip_Text' style='font-size:11pt'> 迷你按钮区域</text>
+<button class='weui-btn mini-btn C' size='mini' bindtap='homeclick'>home钮1</button>
+<button class='weui-btn mini-btn D' size='mini' bindtap='home1click'>按钮2</button>
+</view>
+
+
+</view>
+
+
+
